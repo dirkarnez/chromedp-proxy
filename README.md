@@ -1,4 +1,5 @@
-
+chromedp-proxy
+==============
 
 ### TODOs
 - [ ] https://github.com/chromedp/chromedp/blob/2651bfb9cfa2b313455bb44953864b2b2119addf/allocate.go#L435
@@ -9,3 +10,4 @@
     schema := os.Getenv("PROXY_TYPE") //socks5:// or http://
     chromedp.ProxyServer(fmt.Sprintf("%s%s:%s@%s", schema,login,password,proxy_addr))
     ```
+  - .\mingw64\bin\curl --proxy "http://xxx:xxx@xxx:xxx" "http://httpbin.org/ip" -k
