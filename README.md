@@ -10,4 +10,6 @@ chromedp-proxy
     schema := os.Getenv("PROXY_TYPE") //socks5:// or http://
     chromedp.ProxyServer(fmt.Sprintf("%s%s:%s@%s", schema,login,password,proxy_addr))
     ```
-  - .\mingw64\bin\curl --proxy "http://xxx:xxx@xxx:xxx" "http://httpbin.org/ip" -k
+  - ```cmd
+    .\mingw64\bin\curl --proxy "http://xxx:xxx@xxx:xxx" "http://httpbin.org/ip" -k
+    ```
