@@ -3,6 +3,7 @@ chromedp-proxy
 
 ### TODOs
 - [ ] https://github.com/chromedp/chromedp/blob/2651bfb9cfa2b313455bb44953864b2b2119addf/allocate.go#L435
+  - done in [dirkarnez/m3udownloader](https://github.com/dirkarnez/m3udownloader)
   - ```go
     login  := os.Getenv("PROXY_LOGIN")
     password := os.Getenv("PROXY_PASSWORD")
